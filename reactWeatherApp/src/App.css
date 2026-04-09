@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f8fb;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.city-list,
+.forecast {
+  background: white;
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.city-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.city-list li {
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 16px;
+  margin: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.back-btn {
+  background-color: #e67e22;
+}
+
+.back-btn:hover {
+  background-color: #ca6b17;
+}
+
+.details-box {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #eef6ff;
+  border-radius: 8px;
+}
